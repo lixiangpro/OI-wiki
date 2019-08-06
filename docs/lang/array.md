@@ -6,7 +6,7 @@
 
 例如，包含5个```int```类型的整数值的数组（称为```foo```）可以表示为：
 
-![array1](http://www.cplusplus.com/doc/tutorial/arrays/arrays1.png)
+![array1](/images/arrays1.png)
 
 其中每个空白面板代表数组的一个元素。 在这种情况下，这些是```int```类型的值。 这些元素的编号从0到4，第一个为0，最后为4; 在C++中，数组中的第一个元素总是用0（不是1）编号，无论其长度如何。
 
@@ -38,7 +38,7 @@ int foo [5] = { 16, 2, 77, 40, 12071 };
 
 该语句声明了一个可以如下表示的数组：
 
-![array2](http://www.cplusplus.com/doc/tutorial/arrays/arrays2.png)
+![array2](/images/arrays2.png)
 
 大括号```{}```之间的值的数量不得大于数组中的元素数。 例如，在上面的例子中，```foo```被声明有5个元素（由方括号括起来的数字指定，```[]```），并且大括号```{}```恰好包含5个值，每个元素一个。 如果使用较少的元素声明，则将其余元素设置为其默认值（对于基本类型，表示它们用零填充）。 例如：
 ```
@@ -47,7 +47,7 @@ int bar [5] = { 10, 20, 30 };
 
 将创建一个这样的数组：
 
-![array3](http://www.cplusplus.com/doc/tutorial/arrays/arrays3.png)
+![array3](/images/arrays3.png)
 
 初始化程序甚至可以没有值，只有大括号：
 
@@ -57,7 +57,7 @@ int baz [5] = { };
 
 这将创建一个包含五个```int```值的数组，每个值都初始化为0：
 
-![array4](http://www.cplusplus.com/doc/tutorial/arrays/arrays4.png)
+![array4](/images/arrays4.png)
 
 当为数组提供值的初始化时，C ++允许将方括号留空```[]```。 在这种情况下，编译器将自动假设数组的大小与大括号```{}```之间包含的值的数量相匹配：
 ```
