@@ -107,15 +107,15 @@ foo[2] = 75;        // 访问数组的元素
 
 数组的其他一些有效操作：
 
-`
+```
 foo[0] = a;
 foo[a] = 75;
 b = foo [a+2];
 foo[foo[a]] = foo[2] + 5;
-`
+```
 
 例如：
-`
+```
 // 数组示例
 #include <iostream>
 using namespace std;
@@ -132,7 +132,7 @@ int main ()
   cout << result;
   return 0;
 }
-`
+```
 
 多维数组
 -----------
